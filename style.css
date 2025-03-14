@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+a{
+    list-style: none;
+    text-decoration:inherit;
+    color: #FFFFFF;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -35,7 +45,6 @@ main{
 
     .content-text{
         transform: translateX(0%);
-        top: 80px;
         font-size: 1rem;
         width: 100px;
         text-align: center;
